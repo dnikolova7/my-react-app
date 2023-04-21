@@ -1,7 +1,8 @@
 import './App.css';
-import Content from './components/content';
-import IndexFooter from './components/indexFooter';
-import IndexHeader from './components/indexHeader';
+import Content from './components/Content/Content';
+import IndexFooter from './components/Footers/indexFooter';
+import IndexHeader from './components/Headers/indexHeader';
+
 
 function App() {
   return (
