@@ -1,13 +1,16 @@
 import './App.css';
-import content from "./components/content";
+import Content from './components/content';
+import IndexFooter from './components/indexFooter';
+import IndexHeader from './components/indexHeader';
 
 function App() {
   return (
     <div className="App">
-    <div className="header"> <h1> My Insulin Helper </h1>
-    </div>
-      <div className="content">{content}</div>
-      <div className="footer"></div>
+      <div className="top">
+        <IndexHeader />
+      </div>
+      <div className="middle"> <Content /> </div>
+      <div className="bottom"><IndexFooter /></div>
     </div>
     
   );

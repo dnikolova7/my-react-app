@@ -1,7 +1,7 @@
-import React from "react";
 
-function content (){
+
+const Content = () => {
     
 }
 
-export default content ;
+export default Content ;
